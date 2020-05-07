@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #262627;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0;
+    padding: 10px;
+    box-shadow: 10px 10px 10px lightgray;
+}
+footer{
+    background-color: #262627;
+    width: 100%;
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;    
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex div{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0;
+}
+.flex a{
+    width: 170px;
+    color: white;
+}
+.flex a:hover{
+    color: #065830;
+}
+
+
+body{
+    background-color: #f5f1ea;
+    height: 100%;
+}
+.card-header{
+    background-color: #e7e2d5;
+}
+.card-body{
+    background-color: #f7f4ef;
+}
+.progress-bar{
+    background-color: #9f957d;
+}
+.MyFont {
+ font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+ color: black;
+ font-weight: bold;
+ line-height: 90%;
+ font-size: 27px;
+}
+.lead{
+   font-size: 17px; 
+}
+.card-title{
+ font-size: 25px;
+}
+.big{
+ color:white;
+font-weight: bold;
+ font-size: 35px;
+}
+.br{
+ background-color: #fb6801;
+border-color:#fb6801;
+}
+.btn-primary:hover {
+    font-weight: bold;
+    color: #fff;
+    background-color: #fb6801;
+    border-color: #fb6801;
+}
+
+
+.ocult{
+    display: none;
+
+}
+#inicial{
+    transition: all 1.5s;
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    
+     
+}
+#inicial h1{
+    opacity: 0;
+    font-size: 40px;
+    transition: all 3s;
+}
+#inicial h2{
+    opacity: 0;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    transition: all 3s;
+    
+}
+#inicial #final-titulo{
+    opacity: 0;
+    transition: 3s;
+}
+#inicial p{
+    font-size: 17px;
+}
+#inicial button{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #9f957d;
+    color: black;
+    box-shadow: 2px 2px 2px lightgray;
+    transition: all 0.3s;
+    
+    
+}
+#inicial button:hover{
+    background-color: #f5f5f5;
+    border: 1px gray solid;
+    color: black;
+
+    
+}
+.card-body button{
+    border-color: #9f957d;
+    color: black;
+    
+}
+.card-body button:hover{
+    background-color: #f5f1ea;
+    color: black;
+    border-color: #cae4c7;
+}
+.col-md-9 a{
+    color: black;
+}
+.col-md-9 button{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #9f957d;
+    color: black;
+    box-shadow: 2px 2px 2px lightgray;
+    transition: all 0.3s;
+}
+.col-md-9 button:hover{
+    background-color: #f5f5f5;
+    border: 1px gray solid;
+    color: black;
+}
+
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    padding-top: 3px;
+}
+.btn p{
+    margin-top: 7px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    height: 15px;
+    width: 15px;
+    font-size: 13px;
+    margin-left: 140px;
+    margin-right: 40px;
+    border-left: rgb(18, 86, 95) 1px solid;
+    border-right: rgb(18, 86, 95) 1px solid;
+    border-bottom: rgb(18, 86, 95) 1px solid;
+}
+
+.btn p:hover{
+    color: white;
+    
+}
+
+
