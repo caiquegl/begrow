@@ -124,14 +124,7 @@ function charge(question,resp){
                          '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(3,3) id="btn3"> <p>3</p>Carteira assinada / Autonomo / Empreendedor</button>'+
                          '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(3,4) id="btn4"> <p>4</p>Estou Desempregado</button>';
             questao_atual = 2;
-//  }else if(question == 3){
-//       $('#resp_2').val(resp);
-//            pergunta = "Qual sua renda mensal?";
-//            respostas = '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(4,1)>Até R$ 1.000</button>'+
-//                        '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(4,2)>Entre R$ 1.001 e R$ 2.000</button>'+
-//                        '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(4,3)>Entre R$ 2.001 e R$ 3.999</button>'+
-//                        '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(4,4)>Acima de R$ 4.000</button>';
-//            questao_atual = 3;
+
   }else if(question == 3){
  $('#resp_2').val(resp);
            pergunta =  "Você esta negativado? ";
@@ -139,24 +132,7 @@ function charge(question,resp){
                        '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(4,2)id="btn2"> <p>2</p> Não</button>';
            questao_atual = 3;
 
-//  }else if(question ==5){
 
-//if(resp == 2){ $('#listaactive_id').val('n'); }
-//$('#resp_4').val(resp);
-
-//            pergunta = "Em qual banco você tem conta?";
-//            respostas = '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(6,1)>Itaú</button>'+
-//                        '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(6,2)>Bradesco</button>'+
-//                        '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(6,3)>Banco do Brasil</button>'+
-//                        '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(6,4)>Caixa</button>'+
-//                        '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(6,5)>Santander</button>'+
-//                        '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(6,6)>Nubank</button>'+
-//                        '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(6,7)>Inter</button>'+
-//                        '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(6,8)>Original</button>'+
-//                        '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(6,9)>Neon</button>'+
-//                        '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(6,10)>Next</button>'+
-//                        '<button class="btn btn-lg btn-block btn-outline-primary"  onclick=charge(6,11)>Outros</button>';
-//          questao_atual = 5;
 
   }else if(question == 4){
 
